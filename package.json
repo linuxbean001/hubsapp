@@ -6,7 +6,7 @@
   },
   "description": "hubspot-node client sample applications",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -p",
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "./node_modules/.bin/mocha \"./test/test-contacts-app.js\" --timeout 60000 --exit"
