@@ -25,6 +25,5 @@ module.exports = {
   optimization: {
     minimize: false
   },
-   mode: 'development',
-   externalsType: "import"
+   mode: 'development'
 };
