@@ -2,7 +2,7 @@
   "name": "hubspot-contacts-vnext",
   "version": "1.0.0",
   "engines": {
-    "node": ">= 10.13.0"
+    "node": ">= 14.15.5"
   },
   "description": "hubspot-node client sample applications",
   "scripts": {
