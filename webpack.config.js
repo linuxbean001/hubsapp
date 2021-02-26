@@ -16,12 +16,12 @@ module.exports = {
   entry: "./index.js",
   plugins: [new CleanWebpackPlugin("build")],
   output: {
-    filename: "main.js",
+    filename: "index.js",
     libraryTarget: "umd"
   },
-  module: {
+  /*module: {
     rules: [babelLoader]
-  },
+  },*/
   optimization: {
     minimize: false
   },
