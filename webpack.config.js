@@ -19,9 +19,9 @@ module.exports = {
     filename: "index.js",
     libraryTarget: "umd"
   },
-  /*module: {
+  module: {
     rules: [babelLoader]
-  },*/
+  },
   optimization: {
     minimize: false
   },
