@@ -2,14 +2,12 @@ const path = require("path");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 
 const babelLoader = {
-  test: /\.js$/,
-  exclude: /(node_modules)/,
-  use: {
-    loader: "babel-loader",
-    options: {
-      presets: ["@babel/preset-env"]
+  test: /\.jsx?$/,
+    loader: 'babel-loader',
+    exclude: /node_modules/,
+    query: {
+        presets: ['es2015']
     }
-  }
 };
 
 module.exports = {
