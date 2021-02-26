@@ -13,7 +13,6 @@
   },
   "main": "main.js",
   "module": "index.js",
-  "type": "module",
   "keywords": [
     "hubspot",
     "contacts",
